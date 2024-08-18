@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  min-height: 500px; /* Ajusta esto según sea necesario para tu diseño */
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.right-div {
+  position: relative;
+  height: calc(100% - 50px); /* Ajusta la altura para que ocupe el espacio restante */
+  background-color: rgba(65, 48, 100, 0.1); /* Color de fondo opcional para visualizar el área */
+  left: 150px;
+  top: 150px;
+  min-height: 350px;
+}
+.book-img {
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
